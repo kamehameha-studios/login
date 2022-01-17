@@ -1,10 +1,12 @@
 function WriteCookie() {
-          let now = new date();
-          now.setMonth( now.getMonth() + 11);
-          let doman = "kamehameha-studios.github.io;";
+  let now = new date();
+  now.setMonth( now.getMonth() + 11);
+  let doman = "kamehameha-studios.github.io;";
 
-          cookievalue = "";
+  cookievalue = "";
 
-          document.cookie = name = "a"; expires = now; domain = doman; value = cookievalue;
-        }
+  document.cookie = name = "a"; expires = now; domain = doman; value = cookievalue;
+}
+var checkAccount = function(username, password) {
 
+}

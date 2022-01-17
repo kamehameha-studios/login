@@ -8,5 +8,8 @@ function WriteCookie() {
   document.cookie = name = "a"; expires = now; domain = doman; value = cookievalue;
 }
 var checkAccount = function(username, password) {
-
+  var name = document.getelementbyid("#name");
+  var code = document.getelementbyid("#password");
+  name = username;
+  code = password;
 }

@@ -31,9 +31,12 @@
           
           document.cookie = name = "a"; expires = now; domain = doman; value = cookievalue;
         }
+        var checkAccount = function(username, password) {
+          
+        }
       </script>
     </head>
-    <body onload="WriteCookie">
+    <body onload="WriteCookie" lang="en">
       <div>
         <div class="none">
           <h1 class="a b d">
@@ -46,12 +49,12 @@
           </h2>
         </div>
         <div class="none">
-          <form accept-charset="UTF-8" action="https://kamehameha-studios.github.io/username.login-404-could-not-be-found" method="get" class="b">
+          <form accept-charset="UTF-8" action="https://kamehameha-studios.github.io/username.login-404-could-not-be-found" method="get" class="b" onload="checkAccount">
             <div>
               <input type="name"  placeholder="Username" autocomplete="current-username" class="c" height="50" width="100">
             </div>
             <div>
-              <input type="password" placeholder="Password" autocomplete="current-password" class="c" autocapitalize="off" height="50" width="100" spellcheck="false" badinput="false" data-initial-value="" dir="ltr" data-initial-dir="ltr">
+              <input type="password" placeholder="Password" autocomplete="current-password" class="c" autocapitalize="off" height="50" width="100" spellcheck="false" badinput="false" dir="ltr" data-initial-dir="ltr">
             </div>
             <div>
               <button type="submit" class="b">

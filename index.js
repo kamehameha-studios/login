@@ -7,9 +7,7 @@ function WriteCookie() {
 
   document.cookie = name = "a"; expires = now; domain = doman; value = cookievalue;
 }
-var checkAccount = function(username, password) {
+var checkAccount = function() {
   var name = document.GetElementById("#name");
   var code = document.GetElementById("#password");
-  name = username;
-  code = password;
 }

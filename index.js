@@ -7,3 +7,4 @@ function WriteCookie() {
 
           document.cookie = name = "a"; expires = now; domain = doman; value = cookievalue;
         }
+

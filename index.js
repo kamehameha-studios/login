@@ -2,9 +2,9 @@ function WriteCookie() {
   let now = new date();
   now.setMonth( now.getMonth() + 11);
   let doman = "kamehameha-studios.github.io;";
-
+  
   cookievalue = "";
-
+  
   document.cookie = name = "a"; expires = now; domain = doman; value = cookievalue;
 }
 var checkAccount = function() {
@@ -12,10 +12,10 @@ var checkAccount = function() {
   var code = document.GetElementById("#password");
   var form = document.GetElementById("#form");
   var hidden1 = "";
-  if(name "value" === "Bosco") {
-    form action="https://kamehameha-studios.github.io/Bosco-home/";
+  if(name = value === "Bosco") {
+    form = action = "https://kamehameha-studios.github.io/Bosco-home/";
   }
-  if(code "value" === hidden1) {
-    form action="https://kamehameha-studios.github.io/Bosco-home/";
+  if(code = value === hidden1) {
+    form = action = "https://kamehameha-studios.github.io/Bosco-home/";
   }
 }

@@ -9,4 +9,5 @@ function WriteCookie() {
 }
 var checkAccount = function(username, password) {
 
+
 }

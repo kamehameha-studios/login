@@ -5,6 +5,6 @@ function WriteCookie() {
 
   cookievalue = "";
 
-  document.cookie = name = "a"; expires = now; domain = doman; value = cookievalue;
+  document.cookie = name = "login-user"; expires = now; domain = doman; content = cookievalue; path = "/";;
 }
 

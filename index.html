@@ -22,9 +22,9 @@
       </style>
       <script>
         function WriteCookie() {
-          let now = new date();
+          var now = new date();
           now.setMonth( now.getMonth() + 11);
-          let doman = "kamehameha-studios.github.io;";
+          var doman = "kamehameha-studios.github.io;";
           
           cookievalue = "";
           
@@ -32,7 +32,7 @@
         }
       </script>
     </head>
-    <body onload="WriteCookie">
+    <body onload="WriteCookie()">
       <div>
         <div>
           <h1 class="a b d">
@@ -47,10 +47,10 @@
         <div>
           <form accept-charset="UTF-8" action="https://kamehameha-studios.github.io/login/404.html" method="get" class="b">
             <div>
-              <input type="name"  placeholder="Username" autocomplete="current-username" class="c" height="50" width="100" id="name">
+              <input type="name"  placeholder="Username" autocomplete="current-username" class="c" height="50" width="100" title="Enter your username." id="name" aria-required="true">
             </div>
             <div>
-              <input type="password" placeholder="Password" autocomplete="current-password" class="c" autocapitalize="off" height="50" width="100" spellcheck="false" badinput="false" data-initial-value="" dir="ltr" data-initial-dir="ltr" id="password">
+              <input type="password" placeholder="Password" autocomplete="current-password" class="c" autocapitalize="off" height="50" width="100" spellcheck="false" badinput="false" dir="ltr" data-initial-dir="ltr" title="Enter your username." id="password" aria-required="true">
             </div>
             <div>
               <button type="submit" class="b">

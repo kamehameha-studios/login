@@ -18,6 +18,10 @@
         .d {
           font-size: 32.4598px;
         }
+        .e {
+          height: "150";
+          width: "200";
+        }
       </style>
       <script>
         function WriteCookie() {
@@ -27,16 +31,23 @@
           
           cookievalue = "";
           
-          document.cookie = name = "a"; expires = now; domain = doman; value = cookievalue;
-        }
+          document.cookie = name = "login-user"; expires = now; domain = doman; value = cookievalue;;
+        };
         var checkAccount = function() {
           var name = document.GetElementById("#name");
           var code = document.GetElementById("#password");
-          
-        }
+          var form = document.GetElementById("#form");
+          var hidden1 = "";
+          if(name = value === "Bosco") {
+            form = action = "https://kamehameha-studios.github.io/Bosco-home/";
+          }
+          if(code = value === hidden1) {
+            form = action = "https://kamehameha-studios.github.io/Bosco-home/";
+          }
+        };
       </script>
     </head>
-    <body onload="WriteCookie()" lang="en">
+    <body lang="en" onload="WriteCookie()">
       <div>
         <div>
           <h1 class="a b d">
@@ -49,15 +60,15 @@
           </h2>
         </div>
         <div>
-          <form accept-charset="UTF-8" action="https://kamehameha-studios.github.io/username.login-404-could-not-be-found" method="get" class="b" onload="checkAccount">
+          <form accept-charset="UTF-8" action="https://kamehameha-studios.github.io/username.login-404-could-not-be-found" method="get" class="b" onload="checkAccount" id="form">
             <div>
-              <input type="name" placeholder="Username" autocomplete="username" class="c" height="150" width="200" id="name">
+              <input type="name" placeholder="Username" autocomplete="username" class="c" class="e" id="name">
             </div>
             <div>
-              <input type="password" placeholder="Password" autocomplete="current-password" class="c" autocapitalize="off" height="150" width="200" spellcheck="false" badinput="false" dir="ltr" data-initial-dir="ltr" id="password">
+              <input type="password" placeholder="Password" autocomplete="current-password" class="c" autocapitalize="off" class="e" spellcheck="false" badinput="false" dir="ltr" data-initial-dir="ltr" id="password">
             </div>
             <div>
-              <button type="submit" class="b">
+              <button type="submit" class="b e">
                 Login
               </button>
             </div>

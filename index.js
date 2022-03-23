@@ -6,8 +6,7 @@ function WriteCookie() {
   cookievalue = "";
   
   document.cookie = name = "login-user"; expires = now; domain = doman; value = cookievalue;;
-}
-
+};
 var checkAccount = function() {
   var name = document.GetElementById("#name");
   var code = document.GetElementById("#password");
@@ -19,5 +18,5 @@ var checkAccount = function() {
   if(code = value === hidden1) {
     form = action = "https://kamehameha-studios.github.io/Bosco-home/";
   }
-}
+};
 

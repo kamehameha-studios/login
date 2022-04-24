@@ -7,4 +7,7 @@ function WriteCookie() {
 
   document.cookie = name = "login-user"; expires = now; domain = doman; content = cookievalue; path = "/";;
 }
+var checkAccount = function(username, password) {
 
+
+}
